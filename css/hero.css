@@ -1,0 +1,77 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header{
+    background-color: rgb(47, 85, 253);
+    padding: 40px;
+    text-align: center;
+}
+
+/*
+<header>
+    <img src="img/profile.jpg">
+    <h1>Ratchet and Clank</h1>
+</header>
+*/
+
+h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 255)
+
+}
+
+header img {
+    border-radius: 225px;
+    width: 600px;
+    height: auto;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+.content {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: rgb(255, 127, 80);
+    padding: 0 20px;
+}
+
+img.big-image {
+    width: 100%
+}
+
+p.caption {
+    font-size: 16px;
+    color: rgb(211, 211, 211);
+    font-style: italic;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+footer {
+    max-width: 1100px;
+    margin: 20px auto 0px auto;
+    padding: 40px 20px;
+    background-color: rgb(230, 230, 230)
+}
+
+
+footer ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 5px;
+}
